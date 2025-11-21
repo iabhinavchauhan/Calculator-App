@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    color: #212121;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+}
+.calc-cont {
+    padding: 25px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+#xp {
+    display: none;
+}
+
+#num-input,
+#result {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    text-align: end;
+    border: none;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    color: #212121;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+#result {
+    font-size: 1.8em;
+    color: #757575;
+    min-height: 50px;
+}
+
+.cal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 1.5em;
+    border: none;
+    border-radius: 8px;
+    margin: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    user-select: none;
+    background: #fff;
+    color: #212121;
+    height: 60px;
+}
+
+.cal-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.cal-btn:active {
+    background-color: #e0e0e0;
+    transform: none;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-number {
+    background-color: #e0e0e0;
+    color: #212121;
+}
+
+.btn-operator {
+    background-color: #6200ee;
+    color: white;
+}
+
+.btn-operator:hover {
+     background-color: #7c4dff;
+}
+.btn-equal {
+    background-color: #03a9f4;
+    color: white;
+}
+
+#btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+.btn-zero {
+    grid-column: span 2;
+}
+
+@media (max-width: 480px) {
+    main {
+        width: 95%;
+        max-width: none;
+    }
+
+    .calc-cont {
+        padding: 15px;
+    }
+
+    #num-input {
+        font-size: 2.2em;
+    }
+
+    .cal-btn {
+        height: 55px;
+        font-size: 1.4em;
+        margin: 2px;
+    }
+}

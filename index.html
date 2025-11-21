@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Calculator App</h1>
+        <div class="calc-cont">
+            <div>
+                <div id="xp" class="text-center mb-2">XP: 0</div>
+                <div class="calc">
+                    <input type="text" disabled id="num-input">
+                    <input type="text" disabled id="result">
+                    <div id="btns">
+                        <div onclick="reset()" class="cal-btn btn-operator">C</div>
+                        <div onclick="backspace()" class="cal-btn btn-operator">⌫</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-operator">.</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-operator">/</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">7</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">8</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">9</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-operator">*</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">4</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">5</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">6</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-operator">-</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">1</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">2</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number">3</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-operator">+</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-number btn-zero">0</div>
+                        <div onclick="handleClickBtn(this)" class="cal-btn btn-operator">.</div>
+                        <div onclick="calculate()" class="cal-btn btn-equal">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
