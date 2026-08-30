@@ -13,7 +13,6 @@ A simple and responsive Calculator App built using HTML, CSS, and JavaScript. It
 * Multiplication
 * Division
 * Decimal calculations
-* Clear button
 * Backspace button
 * Responsive design
 * Simple and user-friendly interface
