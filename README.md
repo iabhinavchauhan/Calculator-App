@@ -7,11 +7,6 @@ A simple and responsive Calculator App built using HTML, CSS, and JavaScript. It
 [Calculator App](https://iabhinavchauhan.github.io/Calculator-App/)
 
 ## Features
-
-* Addition
-* Subtraction
-* Multiplication
-* Division
 * Decimal calculations
 * Backspace button
 * Responsive design
