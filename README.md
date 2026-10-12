@@ -1,12 +1,6 @@
 # Calculator App
 [Calculator App](https://iabhinavchauhan.github.io/Calculator-App/)
 
-## Features
-* Decimal calculations
-* Backspace button
-* Responsive design
-* Simple and user-friendly interface
-
 ## How to Run
 
 1. Clone the repository:
