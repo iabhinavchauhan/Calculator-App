@@ -34,7 +34,5 @@ Calculator-App/
 
 ## Author
 
-**Abhinav Chauhan**
-
 * GitHub: https://github.com/iabhinavchauhan
 * LinkedIn: https://linkedin.com/in/iabhinavchauhan
