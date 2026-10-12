@@ -1,5 +1,4 @@
 # Calculator App
-A simple and responsive Calculator App built using HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean and easy-to-use interface.
 
 ## Live Demo
 
