@@ -11,12 +11,6 @@ A simple and responsive Calculator App built using HTML, CSS, and JavaScript. It
 * Responsive design
 * Simple and user-friendly interface
 
-## Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
-
 ## How to Run
 
 1. Clone the repository:
