@@ -1,7 +1,4 @@
 # Calculator App
-
-## Live Demo
-
 [Calculator App](https://iabhinavchauhan.github.io/Calculator-App/)
 
 ## Features
